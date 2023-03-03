@@ -28,6 +28,13 @@
         "BACKGROUND_COLOR": "white",
         "API_BASE_URL": "http://localhost:3500"
       }
+    },
+    {
+      "name": "Docker Node.js Launch",
+      "type": "docker",
+      "request": "launch",
+      "preLaunchTask": "docker-run: debug",
+      "platform": "node"
     }
   ]
 }
